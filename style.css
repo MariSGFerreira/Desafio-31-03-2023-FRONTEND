@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* LOGO */
+
+header, footer {
+    color: white;
+    padding: 0.5em;
+}
+
+footer a {
+    color: inherit;
+}
+
+div#logo {
+    margin: auto 0;
+}
+
+div#logo * {
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+
+div#logo span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Header e Footer */
+
+header {
+    background-image: linear-gradient(#003366, #000000);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* NAV */
+
+nav {
+    background-color: #000000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* Quadro interativo */
+
+.quadro {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .quadro:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .quadro {
+    margin-top: 10px;  
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 40%;
+  }
+  
+  .quadro:last-child {
+    margin-right: 0;
+  }
+
+  /* Footer */
+
+  footer {
+    background-color: #003366;
+    margin-top: auto;
+}
+  
